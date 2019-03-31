@@ -32,8 +32,7 @@
     "watch-dev": "gulp watch --bundle",
     "prepublishOnly": "npm run build",
     "predeploy": "npm run build --prefix ./docs",
-    "deploy": "gh-pages -d ./docs/build",
-    "test" : "testcafe chrome tests/UI/"
+    "deploy": "gh-pages -d ./docs/build"
   },
   "dependencies": {
     "emitter-component": "^1.1.1",
